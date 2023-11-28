@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+}
+
+.header {
+    
+    &__container {
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+
+        h1 {
+            padding-top: 10%;
+            font-family: 'Roboto', sans-serif;
+            color: white;
+            font-weight: 900;
+        }
+    }
+}
