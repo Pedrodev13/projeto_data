@@ -1,9 +1,12 @@
 body {
     background-color: black;
+    @media (max-width: 640px) {
+        background-color: green;
+    }
 }
 
 .header {
-    
+
     &__container {
         margin: 0 auto;
         text-align: center;
@@ -14,6 +17,16 @@ body {
             font-family: 'Roboto', sans-serif;
             color: white;
             font-weight: 900;
+
         }
+    }
+
+    @media (max-width: 640px) {
+        &__container {
+            font-size: 11px;
+            max-width: 80%;
+            padding-top: 10%;
+        }
+        
     }
 }
